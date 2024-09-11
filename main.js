@@ -1,5 +1,5 @@
 
-
+//Selector
 (function () {
   const formElm = document.querySelector('form');
   const inputElm = document.querySelector('#luck-input');
