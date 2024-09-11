@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luck Game</title>
+  <style>
+    .container {
+      width: 70vw;
+      margin: 0 auto;
+    }
+    .input {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Let's play a Luck Game</h1>
+    <p>Winning Score: <span id="winning-score">0</span></p>
+    <p>Player-1: <span id="p1-score">0</span> Player-2: <span id="p2-score">0</span></p>
+
+    <div class="input">
+      <form>
+        <input type="text" id="luck-input" />
+        <input type="submit" value="Submit" />
+        <input type="button" value="Reset" id="resetBtn" />
+      </form>
+    </div>
+
+    <div>
+      <button class="p1Btn">Player 1</button>
+      <button class="p2Btn">Player 2</button>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
